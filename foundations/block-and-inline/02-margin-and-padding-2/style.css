@@ -4,9 +4,11 @@ body {
 }
 
 .card {
+  box-sizing: border-box;
   width: 400px;
   background: white;
   margin: 16px auto;
+  padding: 5px;
 }
 
 .title,
@@ -15,6 +17,28 @@ body {
   background: dodgerblue;
 }
 
+.title{
+  font-size: medium;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 5px;
+}
+
+.content{
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 5px;
+}
+
+.button-container{
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
 button {
   background: white;
+  box-sizing: border-box;
+  padding: 5px;
 }
